@@ -1,5 +1,6 @@
 .degree_symbol:not(:empty)::after {
     content: "°"
+
 }
 
 .owm-legend-item{
@@ -10,3 +11,786 @@
 	width: 600px;
     height: 600px;
 }
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.top_bars{
+    width: 90%;
+    height: 30px;
+    background-color: #93C8E5;
+    position: relative;
+    left: 5%;
+}
+.search{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 5%;
+}
+.today{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 40%;
+}
+.hourly{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 52%;
+}
+.five_day{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 64%;
+}
+.location1{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 76%;
+}
+.more{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 88%;
+}
+.alerts{
+    background-color: red;
+    top: 5px;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.sign{
+    left: 90px;
+    background: black;
+    height: 60px;
+    width: 80px;
+    position: absolute;
+}
+.paragraph{
+    left: 200px;
+    background-color: black;
+    height: 60px;
+    width: 77%;
+    position: absolute;
+}
+.current_temperature{
+    background-color: white;
+    position: relative;
+}
+.location{
+    left: 90px;
+    top: 40px;
+    background-color:#073B58 ;
+    height: 100px;
+    width: 30%;
+    position: absolute;
+}
+.sepecfic_temperature{
+    left: 75%;
+    top: 30px;
+    height: 120px;
+    width: 21%;
+    position: absolute;
+    background-color: #00A4FF;
+}
+.weather_icon{
+    left: 20%;
+    width: 60%;
+    height:425px;
+    top: 220px;
+    background-color: orange;
+    position: absolute;
+}
+.wind_speed{
+    height: 80px;
+    width: 22%;
+    left: 15%;
+    top: 690px;
+    position: absolute;
+    background-color:#073B58; 
+}
+.sunrise{
+    height: 80px;
+    width: 22%;
+    left: 40%;
+    top: 690px;
+    position: absolute;
+    background-color:#073B58;  
+}
+.humidity{
+    height: 80px;
+    width: 22%;
+    left: 65%;
+    top: 690px;
+    position: absolute;
+    background-color:#073B58; 
+}
+.air_quality{
+    height: 80px;
+    width: 22%;
+    left: 15%;
+    top: 810px;
+    position: absolute;
+    background-color:#073B58; 
+}
+.sunset{
+    height: 80px;
+    width: 22%;
+    left: 40%;
+    top: 810px;
+    position: absolute;
+    background-color:#073B58; 
+}
+.precipitation{
+    height: 80px;
+    width: 22%;
+    left: 65%;
+    top: 810px;
+    position: absolute;
+    background-color:#073B58; 
+}
+.visibility{
+    height: 80px;
+    width: 22%;
+    left: 15%;
+    top: 930px;
+    position: absolute;
+    background-color:#073B58;
+}
+.feels_like{
+    height: 80px;
+    width: 22%;
+    left: 40%;
+    top: 930px;
+    position: absolute;
+    background-color:#073B58; 
+}
+.hourly1{
+    background-color: #073B58;
+    position: relative;
+    top: 1075px;
+    height: 30px;
+    width: 80px;
+    left: 80px;
+}
+.now_time{
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.eleven_am_time{
+    position: absolute;
+    left: 137px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.twelve_pm_time{
+    position: absolute;
+    left: 274px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.one_pm_time{
+    position: absolute;
+    left: 411px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.two_pm_time{
+    position: absolute;
+    left: 548px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.three_pm_time{
+    position: absolute;
+    left: 685px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.four_pm_time{
+    position: absolute;
+    left: 822px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.five_pm_time{
+    position: absolute;
+    left: 959px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.six_pm_time{
+    position: absolute;
+    left: 1094px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.seven_pm_time{
+    position: absolute;
+    left: 1235px;
+    width: 80px;
+    height: 40px;
+    top: 50px;
+    background-color: #073B58;
+}
+.now_icon{
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.eleven_am_icon{
+    position: absolute;
+    left: 137px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.twelve_pm_icon{
+    position: absolute;
+    left: 274px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.one_pm_icon{
+    position: absolute;
+    left: 411px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.two_pm_icon{
+    position: absolute;
+    left: 548px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.three_pm_icon{
+    position: absolute;
+    left: 685px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.four_pm_icon{
+    position: absolute;
+    left: 822px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.five_pm_icon{
+    position: absolute;
+    left: 959px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.six_pm_icon{
+    position: absolute;
+    left: 1094px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.seven_pm_icon{
+    position: absolute;
+    left: 1235px;
+    width: 80px;
+    height: 70px;
+    top: 110px;
+    background-color: orange;
+}
+.now_temperature{
+    position: absolute;
+    left: 0px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.eleven_am_temperature{
+    position: absolute;
+    left: 137px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.twelve_pm_temperature{
+    position: absolute;
+    left: 274px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.one_pm_temperature{
+    position: absolute;
+    left: 411px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.two_pm_temperature{
+    position: absolute;
+    left: 548px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.three_pm_temperature{
+    position: absolute;
+    left: 685px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.four_pm_temperature{
+    position: absolute;
+    left: 822px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.five_pm_temperature{
+    position: absolute;
+    left: 959px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.six_pm_temperature{
+    position: absolute;
+    left: 1094px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.seven_pm_temperature{
+    position: absolute;
+    left: 1235px;
+    width: 80px;
+    height: 40px;
+    top: 200px;
+    background-color: #00A4FF;
+}
+.map{
+    position: relative;
+    background-color: #073B58;
+    top: 1375px;
+    height: 30px;
+    width: 80px;
+    left: 80px;
+}
+.map1{
+    position: absolute;
+    top: 40px;
+    width: 1280px;
+    left: 0px;
+    height: 200px;
+    background-color: #073B58;
+}
+.five_day1{
+    position: relative;
+    background-color: #073B58;
+    top: 1660px;
+    height: 30px;
+    width: 80px;
+    left: 80px;
+}
+.friday1{
+    position: absolute;
+    background-color: #073B58;
+    top: 50px;
+    height: 25px;
+    width: 120px;
+    left: 40px;
+}
+.saturday1{
+    position: absolute;
+    background-color: #073B58;
+    top: 50px;
+    height: 25px;
+    width: 120px;
+    left: 310px;
+}
+.sunday1{
+    position: absolute;
+    background-color: #073B58;
+    top: 50px;
+    height: 25px;
+    width: 120px;
+    left: 580px;
+}
+.monday1{
+    position: absolute;
+    background-color: #073B58;
+    top: 50px;
+    height: 25px;
+    width: 120px;
+    left: 850px;
+}
+.tuesday1{
+    position: absolute;
+    background-color: #073B58;
+    top: 50px;
+    height: 25px;
+    width: 120px;
+    left: 1120px;
+}
+.friday{
+    position: absolute;
+    top: 90px;
+    width: 200px;
+    left: 0px;
+    height: 400px;
+    background-color:#002233;
+}
+.saturday{
+    position: absolute;
+    top: 90px;
+    width: 200px;
+    left: 270px;
+    height: 400px;
+    background-color:#002233;
+}
+.sunday{
+    position: absolute;
+    top: 90px;
+    width: 200px;
+    left: 540px;
+    height: 400px;
+    background-color:#002233;
+}
+.monday{
+    position: absolute;
+    top: 90px;
+    width: 200px;
+    left: 810px;
+    height: 400px;
+    background-color:#002233;
+}
+.tuesday{
+    position: absolute;
+    top: 90px;
+    width: 200px;
+    left: 1080px;
+    height: 400px;
+    background-color:#002233;
+}
+.friday_icon{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 20px;
+    height: 75px;
+    background-color: orange;
+}
+.saturday_icon{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 20px;
+    height: 75px;
+    background-color: orange;
+}
+.sunday_icon{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 20px;
+    height: 75px;
+    background-color: orange;
+}
+.monday_icon{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 20px;
+    height: 75px;
+    background-color: orange;
+}
+.tuesday_icon{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 20px;
+    height: 75px;
+    background-color: orange;
+}
+.friday_temperature{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 110px;
+    height: 75px;
+    background-color:white;
+}
+.saturday_temperature{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 110px;
+    height: 75px;
+    background-color:white;
+}
+.sunday_temperature{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 110px;
+    height: 75px;
+    background-color:white;
+}
+.monday_temperature{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 110px;
+    height: 75px;
+    background-color:white;
+}
+.tuesday_temperature{
+    position: absolute;
+    top: 20px;
+    width: 75px;
+    left: 110px;
+    height: 75px;
+    background-color:white;
+}
+.friday_wind{
+    position: absolute;
+    top: 125px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.saturday_wind{
+    position: absolute;
+    top: 125px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.sunday_wind{
+    position: absolute;
+    top: 125px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.monday_wind{
+    position: absolute;
+    top: 125px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.tuesday_wind{
+    position: absolute;
+    top: 125px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.friday_huminity{
+    position: absolute;
+    top: 195px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.saturday_huminity{
+    position: absolute;
+    top: 195px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.sunday_huminity{
+    position: absolute;
+    top: 195px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.monday_huminity{
+    position: absolute;
+    top: 195px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.tuesday_huminity{
+    position: absolute;
+    top: 195px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.friday_uv_index{
+    position: absolute;
+    top: 265px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.saturday_uv_index{
+    position: absolute;
+    top: 265px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.sunday_uv_index{
+    position: absolute;
+    top: 265px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}   
+.monday_uv_index{
+    position: absolute;
+    top: 265px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.tuesday_uv_index{
+    position: absolute;
+    top: 265px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.friday_precipitation{
+    position: absolute;
+    top: 335px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.saturday_precipitation{
+    position: absolute;
+    top: 335px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.sunday_precipitation{
+    position: absolute;
+    top: 335px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.monday_precipitation{
+    position: absolute;
+    top: 335px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.tuesday_precipitation{
+    position: absolute;
+    top: 335px;
+    width: 80%;
+    left: 20px;
+    height: 50px;
+    background-color: orange;
+}
+.future_alerts{
+    position: relative;
+    background-color: red;
+    top: 2160px;
+    height: 60px;
+    width: 100%;
+    left: 0px;
+}
+.alerts_sign2{
+    left: 90px;
+    background: black;
+    height: 60px;
+    width: 80px;
+    position: absolute;
+}
+.paragraph2{
+    left: 200px;
+    background-color: black;
+    height: 60px;
+    width: 77%;
+    position: absolute;
+}
+
