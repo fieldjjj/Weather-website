@@ -34,14 +34,13 @@
 
 
         <div class="results" id="app">
-
             <div class="top_bars">
                 <div class="search"></div>
                 <div class="today"></div>
                 <div class="hourly"></div>
-                <div class="five_day"></div>
-                <div class="location1"></div>
-                <div class="more"></div>
+                <div class="date">{{time.date}}</div>
+                <div class="day">{{time.day}}</div>
+                <div class="time">{{time.hour_12}} : {{time.minute}} : {{time.seconds}} {{time.ampm}}</div>
             </div>
             <div class="alerts">
                 <div class="sign"></div>
@@ -49,13 +48,23 @@
             </div>
             <div class="current_temperature">
                 <div class="location"></div>
-                <div class="weather_icon"></div>
-                <div class="sepecfic_temperature"></div>
-                <div class="wind_speed"></div>
-                <div class="sunrise"></div>
+                <div class="weather_icon">{{current.description_icon}}
+                    <img v-bind:src="'/img/' + forecast[0].description_icon + 'icon-04d.png'" 
+                    v-bind:alt="forecast[0].weather.description">
+                </div>
+                <div class="sepecfic_temperature1">
+                    <p class="sepecfic_temperature">{{current.temp.current}}</p>
+                </div>
+                <div class="wind_speed1">
+                    <p class="wind_speed">{{current.wind.speed}}</p>
+                    <h1>wind speed</h1>
+                </div>
+                <div class="sunrise1">
+                    <p class="sunrise">{{current.sunrise}}</p>
+                </div>
                 <div class="humidity"></div>
-                <div class="air_quality"></div>
-                <div class="sunset"></div>
+                <div class="cloud_cover">{{current.cloud_cover}}</div>
+                <div class="sunset">{{current.sunset}}</div>
                 <div class="precipitation"></div>
                 <div class="visibility"></div>
                 <div class="feels_like"></div>
@@ -113,7 +122,7 @@
                 </div>
             </div>
             <div class="map">
-                <div class="map1"></div>
+                <div class="map1" id="map"></div>
             </div>
             <div class="five_day1">
                 <div class="friday1"></div>
@@ -236,9 +245,12 @@
 
             <p>{{forecast[0].dewpt}}</p>
             <p>{{forecast[0].pres}} mb</p> -->
-
+            
+            <div class="icon-01d"></div>
+            <div class="icon-02d"></div>
+            <div class="icon-10d"></div>
+            <div class="icon-04d"></div>
         </div>
-        <div id="map"></div>
 
 
 
